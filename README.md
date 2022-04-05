@@ -1,24 +1,12 @@
 # hyrule-jobs
 
-## Project setup
-```
-npm install
-```
+## changes from JS to TS in vue
+    <script lang="ts">
+        import { defineComponent } from "vue";
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+        export default defineComponent({
+        name: "App",
+        components: {},
+        });
+    </script>
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
