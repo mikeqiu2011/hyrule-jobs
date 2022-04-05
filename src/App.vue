@@ -14,7 +14,9 @@ export default defineComponent({
   components: {},
   setup() {
     const name = ref("Link");
-    const age = ref(25);
+    const age = ref<number | string>(25);
+
+    age.value = 30;
 
     return { name, age };
   },
